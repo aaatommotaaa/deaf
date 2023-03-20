@@ -1,0 +1,38 @@
+.stat-container {
+    width: 100%;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.stat-body{
+    width: 100px;
+    height: 0;
+    padding-bottom: 50%;
+    background: white;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+}
+
+.stat-fill{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: yellow;
+    transform-origin: center top;
+    transition: transform 0.2s ease-out;
+}
+
+.stat-cover{
+    width: 75%;
+    height: 150%;
+    background-color: white;
+    border-radius:50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}

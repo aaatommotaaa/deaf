@@ -1,0 +1,43 @@
+body {
+  background-size: 200vh;
+}
+
+.container {
+  font-family: "Mitr";
+  display: grid;
+  gap: 5vh;
+  grid-template-columns: 25vh 25vh 25vh 25vh 25vh;
+  grid-template-rows: 25vh 25vh 25vh 25vh 25vh;
+  background-color: transparent;
+}
+
+.grid-item {
+  border-radius: 2vh;
+  background-color: aliceblue;
+  border: 1px;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 0.25px 0.25px 2px 0.25px lightslategray;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightGrey;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
